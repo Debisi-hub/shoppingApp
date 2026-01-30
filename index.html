@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title> Shopping Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2> Smart Shopping & Budget Tracker</h2>
+
+    <!-- Form -->
+    <form id="itemForm">
+      <input type="text" id="itemName" placeholder="Item name" required />
+      <input type="number" id="itemPrice" placeholder="Price" required />
+
+      <select id="itemCategory">
+        <option value="Food">Food</option>
+        <option value="Tech">Tech</option>
+        <option value="Clothes">Clothes</option>
+      </select>
+
+      <button type="submit">Add Item</button>
+    </form>
+
+    <!-- Filters -->
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="Search item..." />
+
+      <select id="filterCategory">
+        <option value="All">All Categories</option>
+        <option value="Food">Food</option>
+        <option value="Tech">Tech</option>
+        <option value="Clothes">Clothes</option>
+      </select>
+    </div>
+
+    <!-- List -->
+    <ul id="itemList"></ul>
+
+    <!-- Total -->
+    <h3>Total Cost: ₦<span id="totalCost">0</span></h3>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

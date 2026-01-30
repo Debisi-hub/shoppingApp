@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 12px;
+  }
+  
+  /* wrapper */
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  
+  /* Title */
+  h2 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  /* Inputs & controls */
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button */
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  /* List */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* List item */
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  /* Important */
+  .important {
+    background: #fff3cd;
+  }
+  
+  /* Total */
+  .total {
+    margin-top: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /*  Mobile responsiveness  */
+  @media (max-width: 480px) {
+    .container {
+      padding: 12px;
+    }
+  
+    li {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+    }
+  
+    button {
+      font-size: 15px;
+    }
+  }
+  

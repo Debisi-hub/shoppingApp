@@ -37,8 +37,8 @@ function renderItems() {
           ${item.name} - ₦${item.price} (${item.category})
         </span>
         <div class="actions">
-          <button onclick="toggleImportant(${index})">IMP</button>
-          <button onclick="deleteItem(${index})">DEL</button>
+          <button onclick="toggleImportant(${index})"><i class="fa-regular fa-star"></i></button>
+          <button onclick="deleteItem(${index})"><i class="fa-solid fa-trash"></i>git</button>
         </div>
       `;
 

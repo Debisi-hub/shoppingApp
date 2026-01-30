@@ -38,7 +38,7 @@ function renderItems() {
         </span>
         <div class="actions">
           <button onclick="toggleImportant(${index})"><i class="fa-regular fa-star"></i></button>
-          <button onclick="deleteItem(${index})"><i class="fa-solid fa-trash"></i>git</button>
+          <button onclick="deleteItem(${index})"><i class="fa-solid fa-trash"></i></button>
         </div>
       `;
 
